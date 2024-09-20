@@ -14,7 +14,7 @@ jobs:
     steps:
       # Step 1: Checkout the code (though not really needed here)
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       
       # Step 2: Print "Hello World!"
       - name: Say Hello World
