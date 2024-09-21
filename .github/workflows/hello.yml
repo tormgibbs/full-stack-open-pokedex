@@ -15,3 +15,11 @@ jobs:
       # Print "Hello World!"
       - name: Say Hello World
         run: echo "Hello World!"
+      
+      # Print the current date
+      - name: Print Current Date
+        run: date
+      
+      # Print the current file directory
+      - name: Print File Directory
+        run: pwd
