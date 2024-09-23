@@ -13,6 +13,7 @@ const PokemonList = ({ pokemonList }) => {
           </div>
         </Link>
       ))}
+      <h1 className='emma'>Edited By Selase</h1>
     </div>
   )
 }
