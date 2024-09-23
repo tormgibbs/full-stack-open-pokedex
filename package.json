@@ -10,6 +10,7 @@
     "test:e2e": "playwright test --project chromium",
     "test:report": "playwright show-report",
     "eslint": "eslint ./**/*.{js,jsx}",
+    "eslint:fix": "eslint ./**/*.{js,jsx} --fix",
     "build": "webpack --mode production"
   },
   "repository": {
